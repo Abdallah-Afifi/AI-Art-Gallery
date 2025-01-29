@@ -1,0 +1,162 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #1a1a1a;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .brand h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header .brand p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.hero button {
+    background: #FF5722;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.featured-art {
+    padding: 2rem;
+    text-align: center;
+}
+
+.art-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.art-item {
+    width: 30%;
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.art-item img {
+    width: 100%;
+    height: auto;
+}
+
+.art-item h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.art-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Create Art Section */
+.create-art {
+    background: #1a1a1a;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.create-art form {
+    margin-top: 1rem;
+}
+
+.create-art input {
+    width: 60%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+}
+
+.create-art button {
+    background: #FF5722;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+#generated-art {
+    margin-top: 2rem;
+}
+
+
+footer {
+    background: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
